@@ -6,8 +6,51 @@
         <link rel="icon" type="image/png" href="/images/favicon.png">
     </head>
     <body>
-        <a href="https://www.google.com/">
-        <button style="font-size: 25px; border-radius: 25px;">Click Me</button>
-        </a>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="username">username:</label>
+            <input minlength="6" maxlength="15" id="username" type="text"required><br>
+            
+            <label for="password">password:</label>
+            <input minlength="6" maxlength="15" id="password" type="password" required><br>
+            
+            <label for="email">email:</label>
+            <input placeholder="test@test.com" minlength="6" maxlength="15" id="email" type="email" required><br>
+            
+            <label for="phone">phone number:</label>
+            <input placeholder="123-456-7890" id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            
+            <label for="bday">birthdate:</label>
+            <input id="bday" type="date"><br>
+            
+            <label for="quantity">quantity:</label>
+            <input id="quantity" type="number" min="0" max="99" value="1"><br>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br>
+            
+            <label for="payment">payment</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+
+            <label for="subscribe">subscribe</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" cols="25" rows="2"></textarea><br>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+            <input type="reset">
+            <input type="submit">
+            
+        </form>
     </body>
 </html>
