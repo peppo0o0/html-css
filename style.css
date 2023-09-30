@@ -1,23 +1,19 @@
+body{
+    background-color: rgb(243, 72, 72);
+}
+
 #p1{
-    color: white;
+    color:white;
 }
 
 #p2{
-    color: red;
+    color: rgb(255, 255, 153);
 }
 
 #p3{
-    color: blue;
+    color: #a5f0b4;
 }
 
 #p4{
-    color: yellow;
-}
-
-.odd{
-    font-size: small;
-}
-
-.even{
-    font-size: medium;
+    color: hsl(318, 87%, 58%);
 }
