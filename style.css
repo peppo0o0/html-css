@@ -1,19 +1,9 @@
-body{
-    background-color: rgb(243, 72, 72);
+h1{
+    font-family: verdana, arial;
 }
 
-#p1{
-    color:white;
-}
-
-#p2{
-    color: rgb(255, 255, 153);
-}
-
-#p3{
-    color: #a5f0b4;
-}
-
-#p4{
-    color: hsl(318, 87%, 58%);
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 18px;
+    font-weight: bold;
 }
