@@ -1,9 +1,28 @@
-#greeting p{
-    background-color: lightblue;
-    padding: 10px;
-    display: none;
+h1::first-letter{
+    font-size: 2em;
+    color: lightblue;
 }
 
-#greeting:hover p{
-    display:block;
+p::first-line{
+    background-color: yellow;
+}
+
+p::selection{
+    color: violet;
+}
+
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#fruit li::marker{
+    content: "👍";
 }
