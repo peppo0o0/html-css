@@ -1,10 +1,5 @@
-#img1{
-    float: left;
-    margin-right: 20px;
-}
-
-#img2{
-    float: right;
-    margin-left: 20px;
-    height: 100px;
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
 }
