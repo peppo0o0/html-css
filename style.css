@@ -1,11 +1,15 @@
-#b1{
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
-    position:fixed;
-    right: 50px;
-    text-align: center;
-    font-size: 4em;
-    padding-top: 90px;
-    font-weight: bold;
+body{
+    background-image: url(/images/starry-night-3840x2160-v0-lqkava48wjqb1.jpg);
+    background-attachment: fixed;
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
 }
