@@ -1,15 +1,7 @@
-body{
-    background-image: url(/images/starry-night-3840x2160-v0-lqkava48wjqb1.jpg);
-    background-attachment: fixed;
-    background-size: cover;   
-    background-position: center;
-    background-repeat: no-repeat;
+#container{
+    border: 2px solid;
 }
 
-h1{
-    color: white;
-}
-
-p{
-    color: white;
+#container + p{
+    background-color: yellow;
 }
