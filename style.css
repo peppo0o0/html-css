@@ -1,7 +1,9 @@
-#container{
-    border: 2px solid;
+#greeting p{
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
 }
 
-#container + p{
-    background-color: yellow;
+#greeting:hover p{
+    display:block;
 }
