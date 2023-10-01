@@ -1,14 +1,11 @@
-.container{
-background-color: gray;
-min-height: 50%;
-}
-
-
-.box{
-    border: 2px solid;
-    height: auto;
-    width: 250px;
-    padding: 25px;
-    box-sizing: border-box;
+#b1{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position:fixed;
+    right: 50px;
     text-align: center;
+    font-size: 4em;
+    padding-top: 90px;
+    font-weight: bold;
 }
