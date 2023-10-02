@@ -1,21 +1,38 @@
-.pagination{
-    text-align: center;
-}
-
-.pagination a{
-    color: black;
-    text-decoration: none;
-    padding: 8px 15px;
+.dropdown{
     display: inline-block;
 }
 
-.pagination a.active{
-    background-color: greenyellow;
-    font-weight: bold;
-    border-radius: 5px;
+.dropdown button{
+    background-color: lightcyan;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
 }
 
-.pagination a:hover:not(.active){
-    background-color: gray;
-    border-radius: 5px;
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    background-color: lightcyan;
+    position: absolute;
+    min-width: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: red;
+}
+
+.dropdown a:hover{
+    background-color: lightblue;
 }
