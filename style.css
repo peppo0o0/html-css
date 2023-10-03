@@ -1,43 +1,15 @@
-*{
-    box-sizing: border-box;
+.gallery{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    width: 200px;
 }
 
-body{
-    margin: 0px;
+.gallery:hover{
+    border: 1px solid blue;
 }
 
-header{
-    background-color: lightblue;
-    text-align: center;
-    padding: 25px;
-}
-
-.navbar{
-    background-color: rgb(44, 44, 218);
-}
-
-aside{
-    width: 20%;
-    float: left;
-    padding: 10px;
-}
-
-aside{
-    width: 40%;
-    float: left;
-    padding: 10px;
-}
-
-aside{
-    width: 40%;
-    float: left;
-    padding: 10px;
-}
-
-footer{
-    background-color: lightblue;
-    text-align: center;
-    padding: 25px;
-    display: block;
-    clear: both;
+.gallery img{
+    width: 100%;
+    height: auto;
 }
