@@ -1,38 +1,31 @@
-.dropdown{
-    display: inline-block;
+body{
+    margin: 0px;
 }
 
-.dropdown button{
-    background-color: lightcyan;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-
-.dropdown .content{
-    background-color: lightcyan;
-    position: absolute;
-    min-width: 100px;
+h1{
     text-align: center;
-    box-shadow: 2px 2px 5px black;
-    display: none;
 }
 
-.dropdown:hover .content{
+.navbar ul{
+    list-style-type: none;
+    background-color: darkgray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
     display: block;
+    text-align: center;
 }
 
-.dropdown:hover button{
-    background-color: red;
+.navbar a:hover{
+    background-color: orange;
 }
 
-.dropdown a:hover{
-    background-color: lightblue;
+.navbar li{
+    float: left;
 }
